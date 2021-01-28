@@ -1,0 +1,46 @@
+#. default-message: Google Drive
+msgid "_spec.name"
+msgstr ""
+
+#. default-message: Load CSV, Google Sheets and Excel files from your Google Drive and update when new data is available.
+msgid "_spec.description"
+msgstr ""
+
+#. default-message: Has header row
+msgid "_spec.parameters.has_header.name"
+msgstr ""
+
+#. default-message: Update
+msgid "_spec.parameters.version_select.name"
+msgstr ""
+
+#. default-message: Invalid credentials. Please reconnect to Google Drive.
+#: googlesheets.py:93
+msgid "error.http.status401"
+msgstr ""
+
+#. default-message: You chose a file your logged-in user cannot access. Please reconnect to Google Drive or choose a different file.
+#: googlesheets.py:101
+msgid "error.http.status403"
+msgstr ""
+
+#. default-message: File not found. Please choose a different file.
+#: googlesheets.py:109
+msgid "error.http.status404"
+msgstr ""
+
+#. default-message: Please re-download this file to disable header-row handling
+#: googlesheets.py:134
+msgid "error.parquet.cannotRemoveHeader"
+msgstr ""
+
+#. default-message: Please choose a file
+#: googlesheets.py:210
+msgid "error.params.noFile"
+msgstr ""
+
+#. default-message: Please connect to Google Drive.
+#: googlesheets.py:229
+msgid "error.secrets.noCredentials"
+msgstr ""
+

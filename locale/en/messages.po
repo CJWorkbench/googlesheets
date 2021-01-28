@@ -1,0 +1,61 @@
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-01-28 16:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+msgid "_spec.name"
+msgstr "Google Drive"
+
+msgid "_spec.description"
+msgstr ""
+"Load CSV, Google Sheets and Excel files from your Google Drive and update"
+" when new data is available."
+
+msgid "_spec.parameters.has_header.name"
+msgstr "Has header row"
+
+msgid "_spec.parameters.version_select.name"
+msgstr "Update"
+
+#: googlesheets.py:93
+msgid "error.http.status401"
+msgstr "Invalid credentials. Please reconnect to Google Drive."
+
+#: googlesheets.py:101
+msgid "error.http.status403"
+msgstr ""
+"You chose a file your logged-in user cannot access. Please reconnect to "
+"Google Drive or choose a different file."
+
+#: googlesheets.py:109
+msgid "error.http.status404"
+msgstr "File not found. Please choose a different file."
+
+#: googlesheets.py:134
+msgid "error.parquet.cannotRemoveHeader"
+msgstr "Please re-download this file to disable header-row handling"
+
+#: googlesheets.py:210
+msgid "error.params.noFile"
+msgstr "Please choose a file"
+
+#: googlesheets.py:229
+msgid "error.secrets.noCredentials"
+msgstr "Please connect to Google Drive."
+
