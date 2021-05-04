@@ -15,8 +15,8 @@ cjwmodule = "~=4.0"
 cjwparquet = "~=2.2.0"
 cjwparse = "~=2.0.0"
 oauthlib = "~=3.1"
-pyarrow = "~=3.0"
-python = "~=3.8"
+pyarrow = "~=4.0"
+python = "~=3.8.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "~=6.0"
